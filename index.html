@@ -3,14 +3,24 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content=""width=device-width, initial-scale="1">
-        <meta="">
-        <title>To-Do App</title>
+        <title>To-Do List</title>
     </head>
 
     <body>
-        <h2>ToDo List App</h2>    
-        <p>Enter task below:</p>
-            <input id="task" type="text" placeholder="Type task here">
-            <button onclick="getTask()">Submit</button>
+        <div>
+            <h2>ToDo List</h2>    
+                <input id="task" type="text" placeholder="Type task here">
+                <span onclick="newElement()">Submit</span>
+        </div>  
+
+        <ul id="tasks">
+            <li>Pack for San Francisco trip</li>
+            <li>Scoop the cat litter</li>
+            <li>Hit the gym</li>
+        </ul>
+
+
+
+
     </body>
 </html>
